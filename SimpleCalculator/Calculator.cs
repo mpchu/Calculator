@@ -13,6 +13,11 @@ namespace SimpleCalculator
     //calculator class with event handlers
     public partial class Calculator : Form
     {
+        string input = string.Empty;      //stores user input
+        string operand1 = string.Empty;   //stores first operand
+        string operand2 = string.Empty;   //stores second operand
+        char operation;                     //operation being performed
+        double result = 0.0;                //calculated result
 
         public Calculator()
         {
@@ -95,6 +100,21 @@ namespace SimpleCalculator
         }
 
         private void EqualSign_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Exponent_Click(object sender, EventArgs e)
         {
 
         }
