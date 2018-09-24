@@ -163,6 +163,10 @@ namespace SimpleCalculator
                     textBox1.Text = result.ToString();
                     break;
             }
+
+            input = result.ToString();
+            operand2 = string.Empty;
+            operation = '\0';
         }
 
         private void Calculator_Load(object sender, EventArgs e)

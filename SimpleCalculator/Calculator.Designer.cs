@@ -60,6 +60,7 @@
             // Zero
             // 
             this.Zero.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Zero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Zero.Location = new System.Drawing.Point(12, 183);
             this.Zero.Name = "Zero";
             this.Zero.Size = new System.Drawing.Size(56, 41);
@@ -70,6 +71,7 @@
             // 
             // One
             // 
+            this.One.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.One.Location = new System.Drawing.Point(12, 136);
             this.One.Name = "One";
             this.One.Size = new System.Drawing.Size(56, 41);
@@ -80,6 +82,7 @@
             // 
             // Two
             // 
+            this.Two.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Two.Location = new System.Drawing.Point(74, 136);
             this.Two.Name = "Two";
             this.Two.Size = new System.Drawing.Size(56, 41);
@@ -90,6 +93,7 @@
             // 
             // Three
             // 
+            this.Three.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Three.Location = new System.Drawing.Point(136, 136);
             this.Three.Name = "Three";
             this.Three.Size = new System.Drawing.Size(56, 41);
@@ -100,6 +104,7 @@
             // 
             // Four
             // 
+            this.Four.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Four.Location = new System.Drawing.Point(12, 89);
             this.Four.Name = "Four";
             this.Four.Size = new System.Drawing.Size(56, 41);
@@ -110,6 +115,7 @@
             // 
             // Five
             // 
+            this.Five.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Five.Location = new System.Drawing.Point(74, 89);
             this.Five.Name = "Five";
             this.Five.Size = new System.Drawing.Size(56, 41);
@@ -120,6 +126,7 @@
             // 
             // Six
             // 
+            this.Six.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Six.Location = new System.Drawing.Point(136, 89);
             this.Six.Name = "Six";
             this.Six.Size = new System.Drawing.Size(56, 41);
@@ -130,6 +137,7 @@
             // 
             // Seven
             // 
+            this.Seven.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Seven.Location = new System.Drawing.Point(12, 42);
             this.Seven.Name = "Seven";
             this.Seven.Size = new System.Drawing.Size(56, 41);
@@ -140,6 +148,7 @@
             // 
             // Eight
             // 
+            this.Eight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Eight.Location = new System.Drawing.Point(74, 42);
             this.Eight.Name = "Eight";
             this.Eight.Size = new System.Drawing.Size(56, 41);
@@ -150,6 +159,7 @@
             // 
             // Nine
             // 
+            this.Nine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Nine.Location = new System.Drawing.Point(136, 42);
             this.Nine.Name = "Nine";
             this.Nine.Size = new System.Drawing.Size(56, 41);
@@ -160,6 +170,7 @@
             // 
             // Dot
             // 
+            this.Dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Dot.Location = new System.Drawing.Point(74, 183);
             this.Dot.Name = "Dot";
             this.Dot.Size = new System.Drawing.Size(56, 41);
@@ -171,6 +182,7 @@
             // DivisionSign
             // 
             this.DivisionSign.BackColor = System.Drawing.Color.SandyBrown;
+            this.DivisionSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.DivisionSign.Location = new System.Drawing.Point(198, 89);
             this.DivisionSign.Name = "DivisionSign";
             this.DivisionSign.Size = new System.Drawing.Size(56, 41);
@@ -182,6 +194,7 @@
             // MultiplicationSign
             // 
             this.MultiplicationSign.BackColor = System.Drawing.Color.SandyBrown;
+            this.MultiplicationSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.MultiplicationSign.Location = new System.Drawing.Point(198, 136);
             this.MultiplicationSign.Name = "MultiplicationSign";
             this.MultiplicationSign.Size = new System.Drawing.Size(56, 41);
@@ -193,6 +206,7 @@
             // SubtractionSign
             // 
             this.SubtractionSign.BackColor = System.Drawing.Color.SandyBrown;
+            this.SubtractionSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.SubtractionSign.Location = new System.Drawing.Point(198, 183);
             this.SubtractionSign.Name = "SubtractionSign";
             this.SubtractionSign.Size = new System.Drawing.Size(56, 41);
@@ -204,6 +218,7 @@
             // AdditionSign
             // 
             this.AdditionSign.BackColor = System.Drawing.Color.SandyBrown;
+            this.AdditionSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.AdditionSign.Location = new System.Drawing.Point(198, 230);
             this.AdditionSign.Name = "AdditionSign";
             this.AdditionSign.Size = new System.Drawing.Size(56, 41);
@@ -215,6 +230,7 @@
             // EqualSign
             // 
             this.EqualSign.BackColor = System.Drawing.Color.SandyBrown;
+            this.EqualSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.EqualSign.Location = new System.Drawing.Point(12, 230);
             this.EqualSign.Name = "EqualSign";
             this.EqualSign.Size = new System.Drawing.Size(180, 41);
@@ -225,6 +241,7 @@
             // 
             // Clear
             // 
+            this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Clear.Location = new System.Drawing.Point(136, 183);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(56, 41);
@@ -236,6 +253,7 @@
             // Exponent
             // 
             this.Exponent.BackColor = System.Drawing.Color.SandyBrown;
+            this.Exponent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Exponent.Location = new System.Drawing.Point(198, 42);
             this.Exponent.Name = "Exponent";
             this.Exponent.Size = new System.Drawing.Size(56, 41);
