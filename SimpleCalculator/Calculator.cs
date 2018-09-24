@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace SimpleCalculator
 {
-    //calculator class with event handlers
+    //calculator class capable performing simple calculations
     public partial class Calculator : Form
     {
         string input = string.Empty;      //stores user input
@@ -19,15 +19,23 @@ namespace SimpleCalculator
         char operation;                   //operation being performed
         double result = 0.0;              //calculated result
 
+        //constructor method that initializes the calculator gui
+        //e.g. its buttons and the bindings of those buttons
         public Calculator()
         {
             InitializeComponent();
         }
 
+        #region Operand buttons code
+        //numbers and dot buttons add to a user input field
+        //which represent an operand the user wants to use in their calculations
         private void Zero_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = "";
-            input += "0";
+            if (input != "")
+            {
+                input += "0";
+            }
             this.textBox1.Text += input;
         }
 
@@ -103,7 +111,11 @@ namespace SimpleCalculator
             }
             this.textBox1.Text += input;
         }
+        #endregion
 
+        #region Code for operation buttons
+        //on the click of an operation button,
+        //the operation is decided and the current input becomes the first operand
         private void DivisionSign_Click(object sender, EventArgs e)
         {
             operand1 = input;
@@ -132,10 +144,10 @@ namespace SimpleCalculator
             input = string.Empty;
         }
 
+        //calculations are performed on the click of the equals button
         private void EqualSign_Click(object sender, EventArgs e)
         {
             operand2 = input;
-            input = "";
             double num1, num2;
             double.TryParse(operand1, out num1);
             double.TryParse(operand2, out num2);
@@ -165,14 +177,15 @@ namespace SimpleCalculator
             }
 
             input = result.ToString();
-            operand2 = string.Empty;
-            operation = '\0';
         }
 
-        private void Calculator_Load(object sender, EventArgs e)
+        private void Exponent_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '^';
+            input = string.Empty;
         }
+        #endregion
 
         //clears calculator of any operand or operation data
         private void Clear_Click(object sender, EventArgs e)
@@ -185,11 +198,9 @@ namespace SimpleCalculator
             this.textBox1.Text = "";
         }
 
-        private void Exponent_Click(object sender, EventArgs e)
+        private void Calculator_Load(object sender, EventArgs e)
         {
-            operand1 = input;
-            operation = '^';
-            input = string.Empty;
+
         }
     }
 }
